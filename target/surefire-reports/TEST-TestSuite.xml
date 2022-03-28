@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="18.389" tests="21" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="18.822" tests="21" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\admin\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.0.v20211012-1059\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire681133228763597126\surefirebooter885498884292567159.jar C:\Users\admin\AppData\Local\Temp\surefire681133228763597126 2022-03-28T10-40-15_085-jvmRun1 surefire6983696820244239459tmp surefire_01675270866171373533tmp"/>
+    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire8812671214431903275\surefirebooter6928094756542193574.jar C:\Users\admin\AppData\Local\Temp\surefire8812671214431903275 2022-03-28T11-36-15_800-jvmRun1 surefire18194725576991071115tmp surefire_03222728113582552116tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="F:\java core\restassuredapi\target\test-classes;F:\java core\restassuredapi\target\classes;C:\Users\admin\.m2\repository\io\rest-assured\rest-assured\4.5.1\rest-assured-4.5.1.jar;C:\Users\admin\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar;C:\Users\admin\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\admin\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\admin\.m2\repository\io\rest-assured\json-path\4.5.1\json-path-4.5.1.jar;C:\Users\admin\.m2\repository\org\codehaus\groovy\groovy-json\3.0.9\groovy-json-3.0.9.jar;C:\Users\admin\.m2\repository\io\rest-assured\rest-assured-common\4.5.1\rest-assured-common-4.5.1.jar;C:\Users\admin\.m2\repository\io\rest-assured\xml-path\4.5.1\xml-path-4.5.1.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\admin\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\admin\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\admin\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\admin\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\admin\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\admin\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\admin\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\admin\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\admin\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\admin\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\admin\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\admin\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\admin\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;C:\Users\admin\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\admin\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\admin\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\admin\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\admin\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\admin\.m2\repository\org\projectlombok\lombok\1.18.22\lombok-1.18.22.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire681133228763597126\surefirebooter885498884292567159.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire8812671214431903275\surefirebooter6928094756542193574.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17+35"/>
@@ -57,14 +57,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="checkContentEncoding" classname="restassuredapi.TestCase001" time="0.021">
+  <testcase name="checkContentEncoding" classname="restassuredapi.TestCase001" time="0.044">
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Mar 28, 2022 10:40:19 AM restassuredapi.TestCase001 getAllUsers
+Mar 28, 2022 11:36:19 AM restassuredapi.TestCase001 getAllUsers
 INFO: *******Started TestCase001*************
-Mar 28, 2022 10:40:25 AM restassuredapi.TestCase001 getAllUsers
-INFO: Date=Mon, 28 Mar 2022 05:10:25 GMT
+Mar 28, 2022 11:36:25 AM restassuredapi.TestCase001 getAllUsers
+INFO: Date=Mon, 28 Mar 2022 06:06:25 GMT
 Content-Type=application/json; charset=utf-8
 Transfer-Encoding=chunked
 Connection=keep-alive
@@ -74,177 +74,177 @@ Etag=W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
 Via=1.1 vegur
 Cache-Control=max-age=14400
 CF-Cache-Status=HIT
-Age=4918
+Age=6265
 Expect-CT=max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To={"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Dof%2FVaUYRp0H3T96CW63VujhCtjKbKl%2FFVZUs9EmYkFwAslYmbQrPKbaMNjYg7mKI5OZx1MuUy1wm3L6hHVYjP5ddLRoaVMb0OcOMEdhGCjCURTUiCNCraG719Q%3D"}],"group":"cf-nel","max_age":604800}
+Report-To={"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=9RjFd0FvVXXtHPvGXCuDr0RoueW8dlsjcNKm4p9yzx0i7LmuYwKWkMn6DzJ67mDPYTsuS%2Fk6ogpxkp2dPlkOGW89VuLo%2F1rvP%2B3XTafH6NgE%2Bu7dCnROlHYQmcs%3D"}],"group":"cf-nel","max_age":604800}
 NEL={"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Vary=Accept-Encoding
 Server=cloudflare
-CF-RAY=6f2ddbfaee838e24-LHR
+CF-RAY=6f2e2e00bafa068a-LHR
 Content-Encoding=gzip
 alt-svc=h3=":443"; ma=86400, h3-29=":443"; ma=86400
-Mar 28, 2022 10:40:25 AM restassuredapi.TestCase001 checkContentEncoding
+Mar 28, 2022 11:36:25 AM restassuredapi.TestCase001 checkContentEncoding
 INFO: *******************Checking server encoding****************
-Mar 28, 2022 10:40:25 AM restassuredapi.TestCase001 checkContentEncoding
+Mar 28, 2022 11:36:25 AM restassuredapi.TestCase001 checkContentEncoding
 INFO: Content Encoding is gzip
 ]]></system-err>
   </testcase>
-  <testcase name="checkContentType" classname="restassuredapi.TestCase001" time="0.024">
-    <system-err><![CDATA[Mar 28, 2022 10:40:25 AM restassuredapi.TestCase001 checkContentType
+  <testcase name="checkContentType" classname="restassuredapi.TestCase001" time="0.005">
+    <system-err><![CDATA[Mar 28, 2022 11:36:25 AM restassuredapi.TestCase001 checkContentType
 INFO: *******************Checking content type*****************
-Mar 28, 2022 10:40:25 AM restassuredapi.TestCase001 checkContentType
+Mar 28, 2022 11:36:25 AM restassuredapi.TestCase001 checkContentType
 INFO: Content-Type is application/json; charset=utf-8
 ]]></system-err>
   </testcase>
-  <testcase name="checkCookies" classname="restassuredapi.TestCase001" time="0.006">
-    <system-err><![CDATA[Mar 28, 2022 10:40:25 AM restassuredapi.TestCase001 checkCookies
+  <testcase name="checkCookies" classname="restassuredapi.TestCase001" time="0.014">
+    <system-err><![CDATA[Mar 28, 2022 11:36:25 AM restassuredapi.TestCase001 checkCookies
 INFO: ********************Checking cookies******************
-Mar 28, 2022 10:40:25 AM restassuredapi.TestCase001 checkCookies
+Mar 28, 2022 11:36:25 AM restassuredapi.TestCase001 checkCookies
 INFO: Cookie is null
 ]]></system-err>
   </testcase>
-  <testcase name="checkResponeTime" classname="restassuredapi.TestCase001" time="0.007">
-    <system-err><![CDATA[Mar 28, 2022 10:40:25 AM restassuredapi.TestCase001 checkResponeTime
+  <testcase name="checkResponeTime" classname="restassuredapi.TestCase001" time="0.017">
+    <system-err><![CDATA[Mar 28, 2022 11:36:25 AM restassuredapi.TestCase001 checkResponeTime
 INFO: *************Checking response time******************
-Mar 28, 2022 10:40:25 AM restassuredapi.TestCase001 checkResponeTime
-INFO: Response time is 2714
-Mar 28, 2022 10:40:25 AM restassuredapi.TestCase001 checkResponeTime
+Mar 28, 2022 11:36:25 AM restassuredapi.TestCase001 checkResponeTime
+INFO: Response time is 2747
+Mar 28, 2022 11:36:25 AM restassuredapi.TestCase001 checkResponeTime
 WARNING: Response time is greater than 2000
 ]]></system-err>
   </testcase>
-  <testcase name="checkResponseBody" classname="restassuredapi.TestCase001" time="0.118">
-    <system-err><![CDATA[Mar 28, 2022 10:40:25 AM restassuredapi.TestCase001 checkResponseBody
+  <testcase name="checkResponseBody" classname="restassuredapi.TestCase001" time="0.076">
+    <system-err><![CDATA[Mar 28, 2022 11:36:25 AM restassuredapi.TestCase001 checkResponseBody
 INFO: ************Checking Response body****************
-Mar 28, 2022 10:40:25 AM restassuredapi.TestCase001 checkResponseBody
+Mar 28, 2022 11:36:25 AM restassuredapi.TestCase001 checkResponseBody
 INFO: Response body is {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
 ]]></system-err>
   </testcase>
-  <testcase name="checkServerType" classname="restassuredapi.TestCase001" time="0.004">
-    <system-err><![CDATA[Mar 28, 2022 10:40:25 AM restassuredapi.TestCase001 checkServerType
+  <testcase name="checkServerType" classname="restassuredapi.TestCase001" time="0.005">
+    <system-err><![CDATA[Mar 28, 2022 11:36:25 AM restassuredapi.TestCase001 checkServerType
 INFO: *******************Checking server type*******************
-Mar 28, 2022 10:40:25 AM restassuredapi.TestCase001 checkServerType
+Mar 28, 2022 11:36:25 AM restassuredapi.TestCase001 checkServerType
 INFO: Server Type is 1.1 vegur
 ]]></system-err>
   </testcase>
-  <testcase name="checkStatusCode" classname="restassuredapi.TestCase001" time="0.011">
-    <system-err><![CDATA[Mar 28, 2022 10:40:25 AM restassuredapi.TestCase001 checkStatusCode
+  <testcase name="checkStatusCode" classname="restassuredapi.TestCase001" time="0.017">
+    <system-err><![CDATA[Mar 28, 2022 11:36:25 AM restassuredapi.TestCase001 checkStatusCode
 INFO: **************Checking status code******************
-Mar 28, 2022 10:40:25 AM restassuredapi.TestCase001 checkStatusCode
+Mar 28, 2022 11:36:25 AM restassuredapi.TestCase001 checkStatusCode
 INFO: Status code is 200
 ]]></system-err>
   </testcase>
-  <testcase name="checkStatusLine" classname="restassuredapi.TestCase001" time="0.052">
-    <system-err><![CDATA[Mar 28, 2022 10:40:25 AM restassuredapi.TestCase001 checkStatusLine
+  <testcase name="checkStatusLine" classname="restassuredapi.TestCase001" time="0.018">
+    <system-err><![CDATA[Mar 28, 2022 11:36:25 AM restassuredapi.TestCase001 checkStatusLine
 INFO: ***************Checking status line********************
-Mar 28, 2022 10:40:25 AM restassuredapi.TestCase001 checkStatusLine
+Mar 28, 2022 11:36:25 AM restassuredapi.TestCase001 checkStatusLine
 INFO: Status Line is HTTP/1.1 200 OK
 ]]></system-err>
   </testcase>
-  <testcase name="checkContentType" classname="restassuredapi.TestCase002" time="0.014">
-    <system-err><![CDATA[Mar 28, 2022 10:40:25 AM restassuredapi.TestCase001 tearDown
+  <testcase name="checkContentType" classname="restassuredapi.TestCase002" time="0.046">
+    <system-err><![CDATA[Mar 28, 2022 11:36:25 AM restassuredapi.TestCase001 tearDown
 INFO: ******************Test case completed********************
-Mar 28, 2022 10:40:25 AM restassuredapi.TestCase002 createUser
+Mar 28, 2022 11:36:25 AM restassuredapi.TestCase002 createUser
 INFO: **************Test Case002 Started********************
-Mar 28, 2022 10:40:28 AM restassuredapi.TestCase002 checkContentType
+Mar 28, 2022 11:36:28 AM restassuredapi.TestCase002 checkContentType
 INFO: ****************Checking content type********************
-Mar 28, 2022 10:40:28 AM restassuredapi.TestCase002 checkContentType
+Mar 28, 2022 11:36:28 AM restassuredapi.TestCase002 checkContentType
 INFO: Content Type is application/json; charset=utf-8
 ]]></system-err>
   </testcase>
-  <testcase name="checkResponseBody" classname="restassuredapi.TestCase002" time="0.026">
-    <system-err><![CDATA[Mar 28, 2022 10:40:28 AM restassuredapi.TestCase002 checkResponseBody
+  <testcase name="checkResponseBody" classname="restassuredapi.TestCase002" time="0.006">
+    <system-err><![CDATA[Mar 28, 2022 11:36:28 AM restassuredapi.TestCase002 checkResponseBody
 INFO: ***************Checking Response body****************
-Mar 28, 2022 10:40:28 AM restassuredapi.TestCase002 checkResponseBody
-INFO: Response body is {"name":"morpheus iFbk","job":"nmhLe","id":"331","createdAt":"2022-03-28T05:10:26.942Z"}
+Mar 28, 2022 11:36:28 AM restassuredapi.TestCase002 checkResponseBody
+INFO: Response body is {"name":"morpheus aygV","job":"wQpFc","id":"388","createdAt":"2022-03-28T06:06:26.640Z"}
 ]]></system-err>
   </testcase>
-  <testcase name="checkStatusCode" classname="restassuredapi.TestCase002" time="0.013">
-    <system-err><![CDATA[Mar 28, 2022 10:40:28 AM restassuredapi.TestCase002 checkStatusCode
+  <testcase name="checkStatusCode" classname="restassuredapi.TestCase002" time="0.003">
+    <system-err><![CDATA[Mar 28, 2022 11:36:28 AM restassuredapi.TestCase002 checkStatusCode
 INFO: *********Checking status code***************
-Mar 28, 2022 10:40:28 AM restassuredapi.TestCase002 checkStatusCode
+Mar 28, 2022 11:36:28 AM restassuredapi.TestCase002 checkStatusCode
 INFO: Status Code is 201
 ]]></system-err>
   </testcase>
-  <testcase name="checkStatusLine" classname="restassuredapi.TestCase002" time="0.004">
-    <system-err><![CDATA[Mar 28, 2022 10:40:28 AM restassuredapi.TestCase002 checkStatusLine
+  <testcase name="checkStatusLine" classname="restassuredapi.TestCase002" time="0.008">
+    <system-err><![CDATA[Mar 28, 2022 11:36:28 AM restassuredapi.TestCase002 checkStatusLine
 INFO: ***********Checking Status Line*****************
-Mar 28, 2022 10:40:28 AM restassuredapi.TestCase002 checkStatusLine
+Mar 28, 2022 11:36:28 AM restassuredapi.TestCase002 checkStatusLine
 INFO: Status Line is HTTP/1.1 201 Created
 ]]></system-err>
   </testcase>
-  <testcase name="checkContentType" classname="restassuredapi.TestCase003" time="0.004">
-    <system-err><![CDATA[Mar 28, 2022 10:40:28 AM restassuredapi.TestCase002 tearDown
+  <testcase name="checkContentType" classname="restassuredapi.TestCase003" time="0.003">
+    <system-err><![CDATA[Mar 28, 2022 11:36:28 AM restassuredapi.TestCase002 tearDown
 INFO: *******Test case002 is finished**********
-Mar 28, 2022 10:40:28 AM restassuredapi.TestCase003 updateUser
+Mar 28, 2022 11:36:28 AM restassuredapi.TestCase003 updateUser
 INFO: **************Test Case003 Started********************
-Mar 28, 2022 10:40:31 AM restassuredapi.TestCase003 checkContentType
+Mar 28, 2022 11:36:30 AM restassuredapi.TestCase003 checkContentType
 INFO: ****************Checking content type********************
-Mar 28, 2022 10:40:31 AM restassuredapi.TestCase003 checkContentType
+Mar 28, 2022 11:36:30 AM restassuredapi.TestCase003 checkContentType
 INFO: Content Type is application/json; charset=utf-8
 ]]></system-err>
   </testcase>
-  <testcase name="checkResponseBody" classname="restassuredapi.TestCase003" time="0.006">
-    <system-err><![CDATA[Mar 28, 2022 10:40:31 AM restassuredapi.TestCase003 checkResponseBody
+  <testcase name="checkResponseBody" classname="restassuredapi.TestCase003" time="0.008">
+    <system-err><![CDATA[Mar 28, 2022 11:36:30 AM restassuredapi.TestCase003 checkResponseBody
 INFO: ***************Checking Response body****************
-Mar 28, 2022 10:40:31 AM restassuredapi.TestCase003 checkResponseBody
-INFO: Response body is {"name":"morpheus DzTa","job":"qgLYD","updatedAt":"2022-03-28T05:10:29.605Z"}
+Mar 28, 2022 11:36:30 AM restassuredapi.TestCase003 checkResponseBody
+INFO: Response body is {"name":"morpheus suWx","job":"ZqroS","updatedAt":"2022-03-28T06:06:29.331Z"}
 ]]></system-err>
   </testcase>
-  <testcase name="checkStatusCode" classname="restassuredapi.TestCase003" time="0.005">
-    <system-err><![CDATA[Mar 28, 2022 10:40:31 AM restassuredapi.TestCase003 checkStatusCode
+  <testcase name="checkStatusCode" classname="restassuredapi.TestCase003" time="0.006">
+    <system-err><![CDATA[Mar 28, 2022 11:36:30 AM restassuredapi.TestCase003 checkStatusCode
 INFO: *********Checking status code***************
-Mar 28, 2022 10:40:31 AM restassuredapi.TestCase003 checkStatusCode
+Mar 28, 2022 11:36:30 AM restassuredapi.TestCase003 checkStatusCode
 INFO: Status Code is 200
 ]]></system-err>
   </testcase>
-  <testcase name="checkStatusLine" classname="restassuredapi.TestCase003" time="0.042">
-    <system-err><![CDATA[Mar 28, 2022 10:40:31 AM restassuredapi.TestCase003 checkStatusLine
+  <testcase name="checkStatusLine" classname="restassuredapi.TestCase003" time="0.021">
+    <system-err><![CDATA[Mar 28, 2022 11:36:30 AM restassuredapi.TestCase003 checkStatusLine
 INFO: ***********Checking Status Line*****************
-Mar 28, 2022 10:40:31 AM restassuredapi.TestCase003 checkStatusLine
+Mar 28, 2022 11:36:30 AM restassuredapi.TestCase003 checkStatusLine
 INFO: Status Line is HTTP/1.1 200 OK
 ]]></system-err>
   </testcase>
-  <testcase name="checkContentType" classname="restassuredapi.TestCase004" time="0.006">
-    <system-err><![CDATA[Mar 28, 2022 10:40:31 AM restassuredapi.TestCase003 tearDown
+  <testcase name="checkContentType" classname="restassuredapi.TestCase004" time="0.019">
+    <system-err><![CDATA[Mar 28, 2022 11:36:30 AM restassuredapi.TestCase003 tearDown
 INFO: *******Test case002 is finished**********
-Mar 28, 2022 10:40:31 AM restassuredapi.TestCase004 deleteUser
+Mar 28, 2022 11:36:30 AM restassuredapi.TestCase004 deleteUser
 INFO: **************Test Case004 Started********************
-Mar 28, 2022 10:40:33 AM restassuredapi.TestCase004 checkContentType
+Mar 28, 2022 11:36:33 AM restassuredapi.TestCase004 checkContentType
 INFO: ****************Checking content type********************
-Mar 28, 2022 10:40:33 AM restassuredapi.TestCase004 checkContentType
+Mar 28, 2022 11:36:33 AM restassuredapi.TestCase004 checkContentType
 INFO: Content Type is null
 ]]></system-err>
   </testcase>
-  <testcase name="checkResponseBody" classname="restassuredapi.TestCase004" time="0.003">
-    <system-err><![CDATA[Mar 28, 2022 10:40:33 AM restassuredapi.TestCase004 checkResponseBody
+  <testcase name="checkResponseBody" classname="restassuredapi.TestCase004" time="0.005">
+    <system-err><![CDATA[Mar 28, 2022 11:36:33 AM restassuredapi.TestCase004 checkResponseBody
 INFO: ***************Checking Response body****************
-Mar 28, 2022 10:40:33 AM restassuredapi.TestCase004 checkResponseBody
+Mar 28, 2022 11:36:33 AM restassuredapi.TestCase004 checkResponseBody
 INFO: Response body is 
 ]]></system-err>
   </testcase>
-  <testcase name="checkStatusCode" classname="restassuredapi.TestCase004" time="0.003">
-    <system-err><![CDATA[Mar 28, 2022 10:40:33 AM restassuredapi.TestCase004 checkStatusCode
+  <testcase name="checkStatusCode" classname="restassuredapi.TestCase004" time="0.006">
+    <system-err><![CDATA[Mar 28, 2022 11:36:33 AM restassuredapi.TestCase004 checkStatusCode
 INFO: *********Checking status code***************
-Mar 28, 2022 10:40:33 AM restassuredapi.TestCase004 checkStatusCode
+Mar 28, 2022 11:36:33 AM restassuredapi.TestCase004 checkStatusCode
 INFO: Status Code is 204
 ]]></system-err>
   </testcase>
-  <testcase name="checkStatusLine" classname="restassuredapi.TestCase004" time="0.007">
-    <system-err><![CDATA[Mar 28, 2022 10:40:33 AM restassuredapi.TestCase004 checkStatusLine
+  <testcase name="checkStatusLine" classname="restassuredapi.TestCase004" time="0.005">
+    <system-err><![CDATA[Mar 28, 2022 11:36:33 AM restassuredapi.TestCase004 checkStatusLine
 INFO: ***********Checking Status Line*****************
-Mar 28, 2022 10:40:33 AM restassuredapi.TestCase004 checkStatusLine
+Mar 28, 2022 11:36:33 AM restassuredapi.TestCase004 checkStatusLine
 INFO: Status Line is HTTP/1.1 204 No Content
 ]]></system-err>
   </testcase>
-  <testcase name="getResponseHeaders" classname="restassuredapi.TestCase005" time="0.02">
-    <system-err><![CDATA[Mar 28, 2022 10:40:33 AM restassuredapi.TestCase004 tearDown
+  <testcase name="getResponseHeaders" classname="restassuredapi.TestCase005" time="0.021">
+    <system-err><![CDATA[Mar 28, 2022 11:36:33 AM restassuredapi.TestCase004 tearDown
 INFO: *******Test case002 is finished**********
-Mar 28, 2022 10:40:33 AM restassuredapi.TestCase005 getHeaders
+Mar 28, 2022 11:36:34 AM restassuredapi.TestCase005 getHeaders
 INFO: **************Test Case005 Started********************
-Mar 28, 2022 10:40:36 AM restassuredapi.TestCase005 getResponseHeaders
+Mar 28, 2022 11:36:36 AM restassuredapi.TestCase005 getResponseHeaders
 INFO: ***********getting the headers****************
-Mar 28, 2022 10:40:36 AM restassuredapi.TestCase005 getResponseHeaders
-INFO: Headers is Date=Mon, 28 Mar 2022 05:10:34 GMT
+Mar 28, 2022 11:36:36 AM restassuredapi.TestCase005 getResponseHeaders
+INFO: Headers is Date=Mon, 28 Mar 2022 06:06:34 GMT
 Content-Type=application/json; charset=utf-8
 Connection=keep-alive
 X-Powered-By=Express
@@ -253,13 +253,13 @@ Etag=W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
 Via=1.1 vegur
 Cache-Control=max-age=14400
 CF-Cache-Status=HIT
-Age=4927
+Age=6274
 Expect-CT=max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To={"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=IydWa63PIBWAYVM%2Fx1uT%2Bs1w87XW6nFlerqsIrLZeZ69vqdA1LFgDzYLHluSLOdcWDFe%2FJiiTohPxHWm7EkqPYNeOvnXfp9bQ5fW%2FiFZeDVRZbWZAD9ee5%2FHfJw%3D"}],"group":"cf-nel","max_age":604800}
+Report-To={"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=YpvX2a8qjlxLr4gzNeSPidB1uNwytm8oF0bh3llv4KtoKn%2FV6ne7K9r1RyqxEQBWaPRgsip6MFe7QRPmaKUlToZjp%2B%2BA52%2FT6G6s7eADMPP8hdm7aA%2BVdLnyCD8%3D"}],"group":"cf-nel","max_age":604800}
 NEL={"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Vary=Accept-Encoding
 Server=cloudflare
-CF-RAY=6f2ddc33f94271aa-LHR
+CF-RAY=6f2e2e3c7a79f3fb-LHR
 Content-Encoding=gzip
 alt-svc=h3=":443"; ma=86400, h3-29=":443"; ma=86400
 ]]></system-err>
