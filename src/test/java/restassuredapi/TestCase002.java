@@ -68,6 +68,16 @@ public class TestCase002 extends TestBase {
 		logger.info("Content Type is "+contentType);
 		Assert.assertEquals(contentType, "application/json; charset=utf-8");
 	}
+
+	@Test
+	public void checkResponseTime() {
+		logger.info("****************Checking response time********************");
+		long responseTime = response.getTime();
+		logger.info("Response time is "+responseTime);
+		Assert.assertEquals(responseTime > 2000 && responseTime <4000, true);
+	}
+
+	
 	
 	/*@Test
 	public void checkContentEncoding() {

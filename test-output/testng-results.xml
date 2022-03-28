@@ -1,165 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-26T12:38:46 IST" name="restassuredsuite" finished-at="2022-03-26T12:39:03 IST" duration-ms="16995">
+  <suite started-at="2022-03-28T23:25:17 IST" name="Default suite" finished-at="2022-03-28T23:25:25 IST" duration-ms="8023">
     <groups>
     </groups>
-    <test started-at="2022-03-26T12:38:46 IST" name="restassuredtest" finished-at="2022-03-26T12:39:03 IST" duration-ms="16995">
-      <class name="restassuredapi.TestCase005">
-        <test-method is-config="true" signature="setup()[pri:0, instance:restassuredapi.TestCase005@22ef9844]" started-at="2022-03-26T12:39:00 IST" name="setup" finished-at="2022-03-26T12:39:00 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="getHeaders()[pri:0, instance:restassuredapi.TestCase005@22ef9844]" started-at="2022-03-26T12:39:00 IST" name="getHeaders" finished-at="2022-03-26T12:39:03 IST" duration-ms="2516" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getHeaders -->
-        <test-method signature="getResponseHeaders()[pri:0, instance:restassuredapi.TestCase005@22ef9844]" started-at="2022-03-26T12:39:03 IST" name="getResponseHeaders" finished-at="2022-03-26T12:39:03 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResponseHeaders -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:restassuredapi.TestCase005@22ef9844]" started-at="2022-03-26T12:39:03 IST" name="tearDown" finished-at="2022-03-26T12:39:03 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- restassuredapi.TestCase005 -->
-      <class name="restassuredapi.TestCase003">
-        <test-method is-config="true" signature="updateUser()[pri:0, instance:restassuredapi.TestCase003@35aea049]" started-at="2022-03-26T12:38:55 IST" name="updateUser" finished-at="2022-03-26T12:38:58 IST" duration-ms="2561" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateUser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:restassuredapi.TestCase003@35aea049]" started-at="2022-03-26T12:38:55 IST" name="setup" finished-at="2022-03-26T12:38:55 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="checkContentType()[pri:0, instance:restassuredapi.TestCase003@35aea049]" started-at="2022-03-26T12:38:58 IST" name="checkContentType" finished-at="2022-03-26T12:38:58 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkContentType -->
-        <test-method signature="checkResponseBody()[pri:0, instance:restassuredapi.TestCase003@35aea049]" started-at="2022-03-26T12:38:58 IST" name="checkResponseBody" finished-at="2022-03-26T12:38:58 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkStatusCode()[pri:0, instance:restassuredapi.TestCase003@35aea049]" started-at="2022-03-26T12:38:58 IST" name="checkStatusCode" finished-at="2022-03-26T12:38:58 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:restassuredapi.TestCase003@35aea049]" started-at="2022-03-26T12:38:58 IST" name="checkStatusLine" finished-at="2022-03-26T12:38:58 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusLine -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:restassuredapi.TestCase003@35aea049]" started-at="2022-03-26T12:38:58 IST" name="tearDown" finished-at="2022-03-26T12:38:58 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- restassuredapi.TestCase003 -->
-      <class name="restassuredapi.TestCase004">
-        <test-method is-config="true" signature="setup()[pri:0, instance:restassuredapi.TestCase004@47987356]" started-at="2022-03-26T12:38:58 IST" name="setup" finished-at="2022-03-26T12:38:58 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="deleteUser()[pri:0, instance:restassuredapi.TestCase004@47987356]" started-at="2022-03-26T12:38:58 IST" name="deleteUser" finished-at="2022-03-26T12:39:00 IST" duration-ms="2577" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteUser -->
-        <test-method signature="checkContentType()[pri:0, instance:restassuredapi.TestCase004@47987356]" started-at="2022-03-26T12:39:00 IST" name="checkContentType" finished-at="2022-03-26T12:39:00 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkContentType -->
-        <test-method signature="checkResponseBody()[pri:0, instance:restassuredapi.TestCase004@47987356]" started-at="2022-03-26T12:39:00 IST" name="checkResponseBody" finished-at="2022-03-26T12:39:00 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkStatusCode()[pri:0, instance:restassuredapi.TestCase004@47987356]" started-at="2022-03-26T12:39:00 IST" name="checkStatusCode" finished-at="2022-03-26T12:39:00 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:restassuredapi.TestCase004@47987356]" started-at="2022-03-26T12:39:00 IST" name="checkStatusLine" finished-at="2022-03-26T12:39:00 IST" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusLine -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:restassuredapi.TestCase004@47987356]" started-at="2022-03-26T12:39:00 IST" name="tearDown" finished-at="2022-03-26T12:39:00 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- restassuredapi.TestCase004 -->
-      <class name="restassuredapi.TestCase001">
-        <test-method is-config="true" signature="setup()[pri:0, instance:restassuredapi.TestCase001@4d465b11]" started-at="2022-03-26T12:38:46 IST" name="setup" finished-at="2022-03-26T12:38:46 IST" duration-ms="68" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="getAllUsers()[pri:0, instance:restassuredapi.TestCase001@4d465b11]" started-at="2022-03-26T12:38:46 IST" name="getAllUsers" finished-at="2022-03-26T12:38:52 IST" duration-ms="6001" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getAllUsers -->
-        <test-method signature="checkContentEncoding()[pri:0, instance:restassuredapi.TestCase001@4d465b11]" started-at="2022-03-26T12:38:52 IST" name="checkContentEncoding" finished-at="2022-03-26T12:38:52 IST" duration-ms="30" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkContentEncoding -->
-        <test-method signature="checkContentType()[pri:0, instance:restassuredapi.TestCase001@4d465b11]" started-at="2022-03-26T12:38:52 IST" name="checkContentType" finished-at="2022-03-26T12:38:52 IST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkContentType -->
-        <test-method signature="checkCookies()[pri:0, instance:restassuredapi.TestCase001@4d465b11]" started-at="2022-03-26T12:38:52 IST" name="checkCookies" finished-at="2022-03-26T12:38:52 IST" duration-ms="13" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkCookies -->
-        <test-method signature="checkResponeTime()[pri:0, instance:restassuredapi.TestCase001@4d465b11]" started-at="2022-03-26T12:38:52 IST" name="checkResponeTime" finished-at="2022-03-26T12:38:52 IST" duration-ms="13" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponeTime -->
-        <test-method signature="checkResponseBody()[pri:0, instance:restassuredapi.TestCase001@4d465b11]" started-at="2022-03-26T12:38:52 IST" name="checkResponseBody" finished-at="2022-03-26T12:38:52 IST" duration-ms="53" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkServerType()[pri:0, instance:restassuredapi.TestCase001@4d465b11]" started-at="2022-03-26T12:38:52 IST" name="checkServerType" finished-at="2022-03-26T12:38:52 IST" duration-ms="14" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkServerType -->
-        <test-method signature="checkStatusCode()[pri:0, instance:restassuredapi.TestCase001@4d465b11]" started-at="2022-03-26T12:38:52 IST" name="checkStatusCode" finished-at="2022-03-26T12:38:52 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:restassuredapi.TestCase001@4d465b11]" started-at="2022-03-26T12:38:52 IST" name="checkStatusLine" finished-at="2022-03-26T12:38:52 IST" duration-ms="37" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusLine -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:restassuredapi.TestCase001@4d465b11]" started-at="2022-03-26T12:38:52 IST" name="tearDown" finished-at="2022-03-26T12:38:52 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- restassuredapi.TestCase001 -->
-      <class name="restassuredapi.TestCase002">
-        <test-method is-config="true" signature="createUser()[pri:0, instance:restassuredapi.TestCase002@2fb3536e]" started-at="2022-03-26T12:38:52 IST" name="createUser" finished-at="2022-03-26T12:38:55 IST" duration-ms="2791" status="PASS">
+    <test started-at="2022-03-28T23:25:17 IST" name="Default test" finished-at="2022-03-28T23:25:25 IST" duration-ms="8023">
+      <class name="restassuredapi.Test111PostRequest">
+        <test-method is-config="true" signature="createUser()[pri:0, instance:restassuredapi.Test111PostRequest@4d5b6aac]" started-at="2022-03-28T23:25:17 IST" name="createUser" finished-at="2022-03-28T23:25:25 IST" duration-ms="7850" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:restassuredapi.TestCase002@2fb3536e]" started-at="2022-03-26T12:38:52 IST" name="setup" finished-at="2022-03-26T12:38:52 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="checkContentType()[pri:0, instance:restassuredapi.TestCase002@2fb3536e]" started-at="2022-03-26T12:38:55 IST" name="checkContentType" finished-at="2022-03-26T12:38:55 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkContentType -->
-        <test-method signature="checkResponseBody()[pri:0, instance:restassuredapi.TestCase002@2fb3536e]" started-at="2022-03-26T12:38:55 IST" name="checkResponseBody" finished-at="2022-03-26T12:38:55 IST" duration-ms="3" status="PASS">
+        <test-method signature="checkResponseBody()[pri:0, instance:restassuredapi.Test111PostRequest@4d5b6aac]" started-at="2022-03-28T23:25:25 IST" name="checkResponseBody" finished-at="2022-03-28T23:25:25 IST" duration-ms="55" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkResponseBody -->
-        <test-method signature="checkStatusCode()[pri:0, instance:restassuredapi.TestCase002@2fb3536e]" started-at="2022-03-26T12:38:55 IST" name="checkStatusCode" finished-at="2022-03-26T12:38:55 IST" duration-ms="6" status="PASS">
+        <test-method signature="checkResponseTime()[pri:0, instance:restassuredapi.Test111PostRequest@4d5b6aac]" started-at="2022-03-28T23:25:25 IST" name="checkResponseTime" finished-at="2022-03-28T23:25:25 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="checkStatusCode()[pri:0, instance:restassuredapi.Test111PostRequest@4d5b6aac]" started-at="2022-03-28T23:25:25 IST" name="checkStatusCode" finished-at="2022-03-28T23:25:25 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkStatusLine()[pri:0, instance:restassuredapi.TestCase002@2fb3536e]" started-at="2022-03-26T12:38:55 IST" name="checkStatusLine" finished-at="2022-03-26T12:38:55 IST" duration-ms="9" status="PASS">
+        <test-method signature="checkStatusLine()[pri:0, instance:restassuredapi.Test111PostRequest@4d5b6aac]" started-at="2022-03-28T23:25:25 IST" name="checkStatusLine" finished-at="2022-03-28T23:25:25 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusLine -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:restassuredapi.TestCase002@2fb3536e]" started-at="2022-03-26T12:38:55 IST" name="tearDown" finished-at="2022-03-26T12:38:55 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- restassuredapi.TestCase002 -->
-    </test> <!-- restassuredtest -->
-  </suite> <!-- restassuredsuite -->
+      </class> <!-- restassuredapi.Test111PostRequest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

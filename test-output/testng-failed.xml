@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="restassuredapi.TestCase004">
+      <class name="restassuredapi.Test111PostRequest">
         <methods>
-          <include name="setup"/>
-          <include name="checkContentEncoding"/>
-          <include name="deleteUser"/>
-          <include name="tearDown"/>
+          <include name="createUser"/>
+          <include name="checkResponseBody"/>
         </methods>
-      </class> <!-- restassuredapi.TestCase004 -->
+      </class> <!-- restassuredapi.Test111PostRequest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

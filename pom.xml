@@ -5,9 +5,10 @@
 	<groupId>restassuredapi</groupId>
 	<artifactId>restassuredapi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>rest assured</name>
 	<!-- FIXME change it to the project's website -->
-	<url>http://www.example.com</url>
+	<url>https://rest-assured.io/</url>
 	<contributors>
 		<contributor>
 			<name>karthik</name>
@@ -15,7 +16,7 @@
 			<organization>raaga</organization>
 			<organizationUrl>https://www.licious.in</organizationUrl>
 			<roles>
-				<role>Automation Engineer</role>
+				<role>Web Automation</role>
 			</roles>
 			<timezone>IST</timezone>
 		</contributor>
@@ -34,6 +35,8 @@
 		<log4j.version>2.17.2</log4j.version>
 		<extentreport.version>5.0.9</extentreport.version>
 		<lombok.version>1.18.22</lombok.version>
+		<maven-site-plugin.version>3.7.1</maven-site-plugin.version>
+		<maven-project-info-reports-plugin.version>3.0.0</maven-project-info-reports-plugin.version>
 	</properties>
 
 	<dependencies>
@@ -104,12 +107,12 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-site-plugin</artifactId>
-					<version>3.7.1</version>
+					<version>${maven-site-plugin.version}</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-project-info-reports-plugin</artifactId>
-					<version>3.0.0</version>
+					<version>${maven-project-info-reports-plugin.version}</version>
 				</plugin>
 			</plugins>
 		</pluginManagement>
