@@ -1,2 +1,2 @@
 cd F:\java core\restassuredapi\
-mvn install
+mvn test
